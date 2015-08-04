@@ -79,14 +79,14 @@
 	<p>Todos nuestros diseños y funciones están disponibles para el consumo y administración desde todos los dispositivos de una forma fácil y segura.</p>
 	</div>
 	<div class="imagencarauna">
-		<img src="responsive.png" alt="">
+		<img src="http://wootiendas.com/wp-content/themes/bharat/responsive.png" alt="">
 	</div>
 	</div>
 </div>
 <div class="carados">
 	<div class="contenedordos">
 	<div class="imagencarados">
-		<img src="cdn.png" alt="">
+		<img src="http://wootiendas.com/wp-content/themes/bharat/cdn.png" alt="">
 	</div>
 	<div class="textoscaraos">
 		<h2>Multiples formas de recibir tus pagos</h2><br>
