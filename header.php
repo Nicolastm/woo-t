@@ -5,7 +5,7 @@
 	<title>WooTiendas.com | La forma fácil y rápida de vender en internet</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="http://wootiendas.com/wp-content/themes/bharat/estilos.css">
-	<link rel="stylesheet" href="fonts/style.css">
+	<link rel="stylesheet" href="http://wootiendas.com/wp-content/themes/bharat/fonts/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -110,12 +110,12 @@
 </div>
 
 <div class="creditos">
-	<img src="creditos/fb.png" alt="">
-	<img src="creditos/angular.png" alt="">
-	<img src="creditos/bootstrap.png" alt="">
-	<img src="creditos/paypal.png" alt="">
-	<img src="creditos/wordpress.png" alt="">
-	<img src="creditos/woo.png" alt="">
+	<img src="http://wootiendas.com/wp-content/themes/bharat/creditos/fb.png" alt="">
+	<img src="http://wootiendas.com/wp-content/themes/bharat/creditos/angular.png" alt="">
+	<img src="http://wootiendas.com/wp-content/themes/bharat/creditos/bootstrap.png" alt="">
+	<img src="http://wootiendas.com/wp-content/themes/bharat/creditos/paypal.png" alt="">
+	<img src="http://wootiendas.com/wp-content/themes/bharat/creditos/wordpress.png" alt="">
+	<img src="http://wootiendas.com/wp-content/themes/bharat/creditos/woo.png" alt="">
 </div>
 
 <div class="footer">
