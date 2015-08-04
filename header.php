@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>WooTiendas.com | La forma fácil y rápida de vender en internet</title>
-	<link rel="stylesheet" href="estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://wootiendas.com/wp-content/themes/bharat/estilos.css">
 	<link rel="stylesheet" href="fonts/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
