@@ -19,7 +19,7 @@
 		<div class="contienenav">
 			<div class="naviz">
 			<ul>
-				<li><a href="#"><span class="fa home"></span> Inicio</a></li>
+				<li><a href="#"><span class="fa-home"></span> Inicio</a></li>
 				<li><a href="#"><span class="icon-facebook"></span> Facebook</a></li>
 				<li><a href="#"><span class="icon-twitter"></span> Twitter</a></li>
 			</ul>
