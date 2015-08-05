@@ -36,7 +36,7 @@
 	</div>
 	<div class="header">
 		<div class="contenedorhed">
-			<span class="icon-shop"></span> <h1><a href="#">Wootiendas.com</a></h1>
+			<span class="fa fa-shopping-cart"></span> <h1><a href="#">Wootiendas.com</a></h1>
 		</div>
 	</div>
 <!-- FIN de Header !-->
