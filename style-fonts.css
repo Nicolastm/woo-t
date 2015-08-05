@@ -1,11 +1,11 @@
 /* Hola a todos */
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-4ds6un');
-	src:url('fonts/icomoon.eot?#iefix-4ds6un') format('embedded-opentype'),
-		url('fonts/icomoon.ttf?-4ds6un') format('truetype'),
-		url('fonts/icomoon.woff?-4ds6un') format('woff'),
-		url('fonts/icomoon.svg?-4ds6un#icomoon') format('svg');
+	src:url('icomoon.eot?-4ds6un');
+	src:url('icomoon.eot?#iefix-4ds6un') format('embedded-opentype'),
+		url('icomoon.ttf?-4ds6un') format('truetype'),
+		url('icomoon.woff?-4ds6un') format('woff'),
+		url('icomoon.svg?-4ds6un#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
