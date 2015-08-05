@@ -19,7 +19,7 @@
 		<div class="contienenav">
 			<div class="naviz">
 			<ul>
-				<li><a href="#"><span class="icon-home"></span> Inicio</a></li>
+				<li><a href="#"><span class="fa fa-camera-retro"></span> Inicio</a></li>
 				<li><a href="#"><span class="icon-facebook"></span> Facebook</a></li>
 				<li><a href="#"><span class="icon-twitter"></span> Twitter</a></li>
 			</ul>
@@ -122,11 +122,6 @@
 <div class="footer">
 	<p><span class="icon-shop"></span> Wootiendas.com | 2015</p>
 </div>
-<div class="list-group">
-  <a class="list-group-item" href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
-  <a class="list-group-item" href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a>
-  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a>
-  <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a>
-</div>
+
 </body>
 </html>
