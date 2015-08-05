@@ -20,8 +20,8 @@
 			<div class="naviz">
 			<ul>
 				<li><a href="#"><span class="fa fa-home"></span> Inicio</a></li>
-				<li><a href="#"><span class="icon-facebook"></span> Facebook</a></li>
-				<li><a href="#"><span class="icon-twitter"></span> Twitter</a></li>
+				<li><a href="#"><span class="fa fa-facebook"></span> Facebook</a></li>
+				<li><a href="#"><span class="fa fa-twitter"></span> Twitter</a></li>
 			</ul>
 			</div>
 			<div class="navde">
