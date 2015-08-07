@@ -26,7 +26,7 @@
 			</div>
 			<div class="navde">
 			<ul>
-				<li><a href="#"><span class="icon-shop"></span> Entrar a mi tienda</a></li>
+				<li><a href="#"><span class="fa fa-shopping-cart"></span> Entrar a mi tienda</a></li>
 				<li><a href="#"><span class="icon-chat"></span> Soporte</a></li>
 				<li><a href="#"><span class="icon-paper-plane"></span> Planes</a></li>
 				<li><a href="#"><span class="icon-paper-plane"></span> Blog</a></li>
@@ -47,7 +47,7 @@
 		<p>Somos una plataforma segura e intuitiva que te ayuda a vender en internet.</p>
 		<br><br>
 <div class="opcionplaneslid">
-	<a class="botonplaneslid" href=""><span class="icon-shop"></span> <b>Ver planes</b></a>
+	<a class="botonplaneslid" href=""><span class="fa fa-shopping-cart"></span> <b>Ver planes</b></a>
 </div>
 	</div>
 </div>
