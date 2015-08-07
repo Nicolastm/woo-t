@@ -27,9 +27,9 @@
 			<div class="navde">
 			<ul>
 				<li><a href="#"><span class="fa fa-shopping-cart"></span> Entrar a mi tienda</a></li>
-				<li><a href="#"><span class="icon-chat"></span> Soporte</a></li>
-				<li><a href="#"><span class="icon-paper-plane"></span> Planes</a></li>
-				<li><a href="#"><span class="icon-paper-plane"></span> Blog</a></li>
+				<li><a href="#"><span class="fa fa-life-ring"></span> Soporte</a></li>
+				<li><a href="#"><span class="fa fa-paper-plane-o"></span> Planes</a></li>
+				<li><a href="#"><span class="fa fa-rss"></span> Blog</a></li>
 			</ul>
 			</div>
 		</div>
