@@ -1,6 +1,11 @@
 <?php include(TEMPLATEPATH."/header.php");?>
 
 <style>
+	.contenedorblog {
+		width: 990px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
 	.contenedornotas {
 		width: 660px;
 		float: left;
@@ -21,34 +26,19 @@
 		float: right;
 	}
 </style>
-<br>
 
-<!-- Contenido Fanaticadas -->
+<!-- Contenedor Notas -->
+<div class="contenedorblog">
+	<!-- Contenido Fanaticadas -->
 	<div class="contenedornotas">
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<br><center><span class="fechaescrito"><strong>Publicado por:</strong>
-            <?php the_author_posts_link(); ?>
-          - El
-          <?php the_time('j/F/Y'); ?>
-          - <strong>En el sitio:</strong>
-          <?php the_category(', ') ?></span></center>
-		  <br>
           <center><h1><?php the_title(); ?></h1></center>
           <div style="border-bottom:3px dotted #AEAEAE; margin-bottom:12px; padding:10px 0px 0px 0px; clear:both;"></div>
-          <center><?php the_post_thumbnail(array(640,550)); ?></center>
-          <div style="border-bottom:3px dotted #AEAEAE; margin-bottom:12px; padding:10px 0px 0px 0px; clear:both;"></div>
           <span class="textonotas"><?php the_content(__('Read more', 'studiopress'));?></span>
-
-
-
 		  <?php endwhile; else: ?>
 		  <?php _e('Sorry, no posts matched your criteria.', 'studiopress'); ?>
 		  <?php endif; ?>
-
-
-
-
 	</div>
 
 
@@ -56,4 +46,6 @@
 	<div class="sidebarfanaticadas">
 		<p>Hola Sidebar</p>
 	</div>
+</div>
+<!-- Fin contenedornotas -->
 <?php include(TEMPLATEPATH."/footer.php");?>
