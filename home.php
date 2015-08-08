@@ -66,8 +66,8 @@
 </div>
 
 <div class="opcionplanes">
-	<a class="botonplanes" href=""><span class="icon-shop"></span> <b>$25 dólares al mes</b></a>
-	<a class="botonplanes" href=""><span class="icon-shop"></span> <b>$240 dólares al año</b></a>
+	<a class="botonplanes" href=""><span class="fa fa-shopping-cart"></span> <b>$25 dólares al mes</b></a>
+	<a class="botonplanes" href=""><span class="fa fa-shopping-cart"></span> <b>$240 dólares al año</b></a>
 </div>
 
 <div class="creditos">
