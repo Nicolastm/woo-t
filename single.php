@@ -29,6 +29,7 @@
 			font-size: 11px;
 			text-transform: uppercase;
 			font-family: Arial;
+			color: #B2B2B2;
 		}
 
 	.sidebarfanaticadas {
