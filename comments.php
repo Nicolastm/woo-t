@@ -1,1 +1,1 @@
-<div class="fb-comments" data-href="http://developers.facebook.com/docs/plugins/comments/" data-width="100%" data-numposts="100"></div>
+<div class="fb-comments" data-href="<?php the_permalink(); ?>" data-width="100%" data-numposts="100"></div>
