@@ -57,6 +57,8 @@
 		  <?php endif; ?>
 		  <div class="comentariosblog">
 		  	<p>Deje su comentario a continuación:</p>
+			<br>
+			<?php include(TEMPLATEPATH."/comments.php");?>
 		  </div>
 	</div>
 
@@ -64,8 +66,6 @@
 		<!-- Sidebar Fanaticadas -->
 	<div class="sidebarfanaticadas">
 		<p>Hola Sidebar</p>
-		<br>
-		<?php include(TEMPLATEPATH."/comments.php");?>
 	</div>
 </div>
 <!-- Fin contenedornotas -->
