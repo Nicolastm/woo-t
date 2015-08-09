@@ -15,10 +15,15 @@
 		padding-left: 0px;
 	}
 		.contenedornotas h1 {
-			font-family: 'Arvo', serif;
+			font-family: 'lato', serif;
 			font-size: 33px;
 			margin: 0;
 			text-transform: uppercase;
+		}
+		.contenedornotas p {
+			font-size: 16px;
+			font-family: Arial;
+			color: #333;
 		}
 
 	.sidebarfanaticadas {
@@ -33,9 +38,9 @@
 	<div class="contenedornotas">
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-          <center><h1><?php the_title(); ?></h1></center>
+          <h1><?php the_title(); ?></h1>
           <div style="border-bottom:3px dotted #AEAEAE; margin-bottom:12px; padding:10px 0px 0px 0px; clear:both;"></div>
-          <span class="textonotas"><?php the_content(__('Read more', 'studiopress'));?></span>
+          <p><?php the_content(__('Read more', 'studiopress'));?></p>
 		  <?php endwhile; else: ?>
 		  <?php _e('Sorry, no posts matched your criteria.', 'studiopress'); ?>
 		  <?php endif; ?>
