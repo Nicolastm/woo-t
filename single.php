@@ -13,6 +13,7 @@
 		border-right: 1px solid #CACACA;
 		padding-right: 10px;
 		padding-left: 0px;
+		padding-top: 20px;
 	}
 		.contenedornotas h1 {
 			font-family: 'lato', serif;
