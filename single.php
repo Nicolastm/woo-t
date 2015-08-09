@@ -17,9 +17,8 @@
 	}
 		.contenedornotas h1 {
 			font-family: 'lato', serif;
-			font-size: 33px;
+			font-size: 27px;
 			margin: 0;
-			text-transform: uppercase;
 		}
 		.contenedornotas p {
 			font-size: 16px;
@@ -65,6 +64,8 @@
 		<!-- Sidebar Fanaticadas -->
 	<div class="sidebarfanaticadas">
 		<p>Hola Sidebar</p>
+		<br>
+		<?php include(TEMPLATEPATH."/comments.php");?>
 	</div>
 </div>
 <!-- Fin contenedornotas -->
