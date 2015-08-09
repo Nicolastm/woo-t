@@ -33,6 +33,7 @@
 	.comentariosblog {
 		width: 100%;
 		margin-top: 30px;
+		margin-bottom: 30px;
 		border-top: 2px solid #A1A1A1;
 	}
 		.comentariosblog p {
