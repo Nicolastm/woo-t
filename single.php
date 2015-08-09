@@ -64,8 +64,6 @@
 		  <?php _e('Sorry, no posts matched your criteria.', 'studiopress'); ?>
 		  <?php endif; ?>
 		  <div class="comentariosblog">
-		  	<p>Deje su comentario a continuación:</p>
-			<br>
 			<?php include(TEMPLATEPATH."/comments.php");?>
 		  </div>
 	</div>
