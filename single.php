@@ -17,7 +17,7 @@
 	}
 		.contenedornotas h1 {
 			font-family: 'lato', serif;
-			font-size: 27px;
+			font-size: 31px;
 			margin: 0;
 		}
 		.contenedornotas p {
