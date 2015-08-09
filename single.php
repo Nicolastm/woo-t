@@ -25,6 +25,11 @@
 			font-family: Arial;
 			color: #333;
 		}
+		.contenedornotas h5 {
+			font-size: 11px;
+			text-transform: uppercase;
+			font-family: Arial;
+		}
 
 	.sidebarfanaticadas {
 		width: 300px;
@@ -51,7 +56,8 @@
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           <h1><?php the_title(); ?></h1>
           <div style="border-bottom:1px solid #AEAEAE; margin-bottom:12px; padding:10px 0px 0px 0px; clear:both;"></div>
-          <p>Comentarios | Publicado hace: 30 minutos | Por: Cristian Echeverri</p>
+          <h5>Comentarios | Publicado hace: 30 minutos | Por: Cristian Echeverri</h5>
+          <div style="border-bottom:1px solid #AEAEAE; margin-bottom:12px; padding:10px 0px 0px 0px; clear:both;"></div>
           <p><?php the_content(__('Read more', 'studiopress'));?></p>
 		  <?php endwhile; else: ?>
 		  <?php _e('Sorry, no posts matched your criteria.', 'studiopress'); ?>
