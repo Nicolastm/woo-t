@@ -51,7 +51,14 @@
 		background-color: #fbf9f7;
 		padding-top: 20px;
 		padding-bottom: 20px;
+		border-bottom: solid 1px #D1D1D1;
+		width: 100%;
 	}
+		.contencabezad {
+			width: 990px;
+			margin: 0 auto;
+		}
+
 </style>
 
 <div class="encabezadoblogs">
