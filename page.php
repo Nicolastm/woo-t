@@ -69,10 +69,6 @@
 		}
 
 </style>
-
-<div class="encabezadoblogs">
-	<div class="contencabezad"><h1><span class="fa fa-graduation-cap"></span> Centro de Tutoriales y Novedades de <b>Wootiendas.com</b></h1></div>
-</div>
 <!-- Contenedor Notas -->
 <div class="contenedorblog">
 	<!-- Contenido Fanaticadas -->
