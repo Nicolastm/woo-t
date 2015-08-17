@@ -15,8 +15,8 @@ Template Name: PLANES
 </div>
 
 <div class="opcionplanes">
-	<a class="botonplanes" href=""><b>$25 dólares al mes</b></a>
-	<a class="botonplanes" href=""><b>$240 dólares al año</b></a>
+	<a class="botonplanes" href="http://www.wootiendas.com/planes/mensual/"><b>$25 dólares al mes</b></a>
+	<a class="botonplanes" href="http://www.wootiendas.com/planes/anual/"><b>$240 dólares al año</b></a>
 </div>
 
 <?php include(TEMPLATEPATH."/footer.php");?>
