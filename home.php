@@ -7,7 +7,7 @@
 		<p>Somos una plataforma segura e intuitiva que te ayuda a vender en internet.</p>
 		<br><br>
 <div class="opcionplaneslid">
-	<a class="botonplaneslid" href=""><span class="fa fa-shopping-cart"></span> <b>Ver planes</b></a>
+	<a class="botonplaneslid" href="http://www.wootiendas.com/planes/"><span class="fa fa-shopping-cart"></span> <b>Ver planes</b></a>
 </div>
 	</div>
 </div>

@@ -30,7 +30,7 @@
 			<div class="naviz">
 			<ul>
 				<li><a href="http://www.wootiendas.com/"><span class="fa fa-home"></span> Inicio</a></li>
-				<li><a href="#"><span class="fa fa-facebook"></span> Facebook</a></li>
+				<li><a href="https://www.facebook.com/wootiendasteam" target="_blank"><span class="fa fa-facebook"></span> Facebook</a></li>
 				<li><a href="#"><span class="fa fa-twitter"></span> Twitter</a></li>
 			</ul>
 			</div>
@@ -38,7 +38,7 @@
 			<ul>
 				<li><a href="#"><span class="fa fa-shopping-cart"></span> Entrar a mi tienda</a></li>
 				<li><a href="#"><span class="fa fa-life-ring"></span> Soporte</a></li>
-				<li><a href="#"><span class="fa fa-paper-plane-o"></span> Planes</a></li>
+				<li><a href="http://www.wootiendas.com/planes/"><span class="fa fa-paper-plane-o"></span> Planes</a></li>
 				<li><a href="#"><span class="fa fa-rss"></span> Blog</a></li>
 			</ul>
 			</div>
