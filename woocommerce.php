@@ -1,95 +1,44 @@
-<?php
-/*
-Template Name: WOOCOMERSE
-*/
-?>
-<?php include(TEMPLATEPATH."/header.php");?>
+<?php get_header(); ?>
+<?php global $woo_options; ?>
 
-<style>
-	.contenedorblog {
-		width: 990px;
-		margin: 0 auto;
-		overflow: hidden;
-	}
-	.contenedornotas {
-		width: 660px;
-		float: left;
-		color: black;
-		border-right: 1px solid #CACACA;
-		padding-right: 10px;
-		padding-left: 0px;
-		padding-top: 20px;
-	}
-		.contenedornotas h1 {
-			font-family: 'lato', serif;
-			font-size: 31px;
-			margin: 0;
-		}
-		.contenedornotas p {
-			font-size: 16px;
-			font-family: Arial;
-			color: #333;
-		}
-		.contenedornotas h5 {
-			font-size: 11px;
-			text-transform: uppercase;
-			font-family: Arial;
-			color: #B2B2B2;
-		}
-		.contenedornotas a {
-			text-decoration: none;
-			color: #2C3B88;
-		}
-			.contenedornotas a:hover {
-				color: #333;
-				text-decoration: underline;
-			}
-	.sidebarfanaticadas {
-		width: 300px;
-		float: right;
-	}
-	.comentariosblog {
-		width: 100%;
-		margin-top: 30px;
-		margin-bottom: 30px;
-		border-top: 2px solid #A1A1A1;
-	}
-		.comentariosblog p {
-			font-family: lato;
-			font-size: 19px;
-			color: #A1A1A1;
-		}
-	.encabezadoblogs {
-		background-color: #fbf9f7;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		border-bottom: solid 1px #D1D1D1;
-		width: 100%;
-		font-family: 'Amatic SC', cursive;
-		font-size: 26px;
-	}
-		.contencabezad {
-			width: 990px;
-			margin: 0 auto;
-		}
+	<?php if ( $woo_options[ 'woo_breadcrumbs_show' ] == 'true' ) { ?>
+		<?php woo_breadcrumbs(); ?> 
+	<?php } ?>
+       
+    <div id="content" class="page col-full">
+		<div id="main" class="col-left">
+		           
+        <?php if (have_posts()) : $count = 0; ?>
+        <?php while (have_posts()) : the_post(); $count++; ?>
+                                                                    
+            <div <?php post_class(); ?>>
 
-</style>
+			    <h1 class="title"><?php the_title(); ?></h1>
 
-<!-- Contenedor Notas -->
-<div class="contenedorblog">
-	<!-- Contenido Fanaticadas -->
-	<div class="contenedornotas">
-<?php woocommerce_content(); ?>
-		  <div class="comentariosblog">
-			<?php include(TEMPLATEPATH."/comments.php");?>
-		  </div>
-	</div>
+                <div class="entry">
+                	<?php the_content(); ?>
 
+					<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'woothemes' ), 'after' => '</div>' ) ); ?>
+               	</div><!-- /.entry -->
 
-		<!-- Sidebar Fanaticadas -->
-	<div class="sidebarfanaticadas">
-		<p>Hola Sidebar</p>
-	</div>
-</div>
-<!-- Fin contenedornotas -->
-<?php include(TEMPLATEPATH."/footer.php");?>
+				<?php edit_post_link( __( '{ Edit }', 'woothemes' ), '<span class="small">', '</span>' ); ?>
+                
+            </div><!-- /.post -->
+            
+            <?php $comm = $woo_options[ 'woo_comments' ]; if ( ($comm == "page" || $comm == "both") ) : ?>
+                <?php comments_template(); ?>
+            <?php endif; ?>
+                                                
+		<?php endwhile; else: ?>
+			<div <?php post_class(); ?>>
+            	<p><?php _e( 'Sorry, no posts matched your criteria.', 'woothemes' ) ?></p>
+            </div><!-- /.post -->
+        <?php endif; ?>  
+        
+		</div><!-- /#main -->
+
+        <?php get_sidebar(); ?>
+
+    </div><!-- /#content -->
+		
+<?php get_footer(); ?>
