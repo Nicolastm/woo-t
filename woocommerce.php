@@ -79,16 +79,7 @@ Template Name: WOOCOMERSE
 <div class="contenedorblog">
 	<!-- Contenido Fanaticadas -->
 	<div class="contenedornotas">
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<?php woocommerce_content(); ?>
-          <h1><?php the_title(); ?></h1>
-          <div style="border-bottom:1px solid #D1D1D1; margin-bottom:12px; padding:10px 0px 0px 0px; clear:both;"></div>
-          <h5><span class="fa fa-calendar"></span> <?php the_time('j/F/Y'); ?></h5>
-          <div style="border-bottom:1px solid #D1D1D1; margin-bottom:12px; padding:0px 0px 0px 0px; clear:both;"></div>
-          <p><?php the_content(__('Read more', 'studiopress'));?></p>
-		  <?php endwhile; else: ?>
-		  <?php _e('Sorry, no posts matched your criteria.', 'studiopress'); ?>
-		  <?php endif; ?>
+<?php woocommerce_content(); ?>
 		  <div class="comentariosblog">
 			<?php include(TEMPLATEPATH."/comments.php");?>
 		  </div>
