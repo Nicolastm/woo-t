@@ -63,7 +63,7 @@
 </style>
 
 <div class="encabezadoblogs">
-	<div class="encabezadoblogs"><h1>Blog | Centro de Tutoriales y Novedades de <b>Wootiendas.com</b></h1></div>
+	<div class="contencabezad"><h1>Blog | Centro de Tutoriales y Novedades de <b>Wootiendas.com</b></h1></div>
 </div>
 <!-- Contenedor Notas -->
 <div class="contenedorblog">
