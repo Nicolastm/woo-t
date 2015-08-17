@@ -53,6 +53,7 @@
 		padding-bottom: 20px;
 		border-bottom: solid 1px #D1D1D1;
 		width: 100%;
+		font-family: 'Amatic SC', cursive;
 	}
 		.contencabezad {
 			width: 990px;
@@ -62,7 +63,7 @@
 </style>
 
 <div class="encabezadoblogs">
-	<h1>Blog de tutoriales y novedades</h1>
+	<div class="encabezadoblogs"><h1>Blog | Centro de Tutoriales y Novedades de <b>Wootiendas.com</b></h1></div>
 </div>
 <!-- Contenedor Notas -->
 <div class="contenedorblog">
