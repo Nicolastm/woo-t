@@ -29,7 +29,7 @@
 		<div class="contienenav">
 			<div class="naviz">
 			<ul>
-				<li><a href="#"><span class="fa fa-home"></span> Inicio</a></li>
+				<li><a href="http://www.wootiendas.com/"><span class="fa fa-home"></span> Inicio</a></li>
 				<li><a href="#"><span class="fa fa-facebook"></span> Facebook</a></li>
 				<li><a href="#"><span class="fa fa-twitter"></span> Twitter</a></li>
 			</ul>
@@ -46,7 +46,7 @@
 	</div>
 	<div class="header">
 		<div class="contenedorhed">
-			<span class="fa fa-shopping-cart"></span> <h1><a href="#">Wootiendas.com</a></h1>
+			<span class="fa fa-shopping-cart"></span> <h1><a href="http://www.wootiendas.com/">Wootiendas.com</a></h1>
 		</div>
 	</div>
 <!-- FIN de Header !-->
