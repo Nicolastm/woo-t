@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: WOOCOMERSE
+*/
+?>
 <?php include(TEMPLATEPATH."/header.php");?>
 
 <style>
