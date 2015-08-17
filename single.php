@@ -54,6 +54,7 @@
 		border-bottom: solid 1px #D1D1D1;
 		width: 100%;
 		font-family: 'Amatic SC', cursive;
+		font-size: 30px;
 	}
 		.contencabezad {
 			width: 990px;
@@ -63,7 +64,7 @@
 </style>
 
 <div class="encabezadoblogs">
-	<div class="contencabezad"><h1>Blog | Centro de Tutoriales y Novedades de <b>Wootiendas.com</b></h1></div>
+	<div class="contencabezad"><h1><span class="fa fa-graduation-cap"></span> Blog | Centro de Tutoriales y Novedades de <b>Wootiendas.com</b></h1></div>
 </div>
 <!-- Contenedor Notas -->
 <div class="contenedorblog">
