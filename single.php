@@ -49,8 +49,8 @@
 		}
 	.encabezadoblogs {
 		background-color: #fbf9f7;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		border-bottom: solid 1px #D1D1D1;
 		width: 100%;
 		font-family: 'Amatic SC', cursive;
