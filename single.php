@@ -47,8 +47,16 @@
 			font-size: 19px;
 			color: #A1A1A1;
 		}
+	.encabezadoblogs {
+		background-color: #fbf9f7;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 </style>
 
+<div class="encabezadoblogs">
+	<h1>Blog de tutoriales y novedades</h1>
+</div>
 <!-- Contenedor Notas -->
 <div class="contenedorblog">
 	<!-- Contenido Fanaticadas -->
