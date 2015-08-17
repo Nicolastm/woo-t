@@ -69,12 +69,13 @@
 		}
 
 </style>
+
 <!-- Contenedor Notas -->
 <div class="contenedorblog">
 	<!-- Contenido Fanaticadas -->
 	<div class="contenedornotas">
 
-		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+		<?php woocommerce_content(); ?>
           <h1><?php the_title(); ?></h1>
           <div style="border-bottom:1px solid #D1D1D1; margin-bottom:12px; padding:10px 0px 0px 0px; clear:both;"></div>
           <h5><span class="fa fa-calendar"></span> <?php the_time('j/F/Y'); ?></h5>
