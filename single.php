@@ -31,7 +31,14 @@
 			font-family: Arial;
 			color: #B2B2B2;
 		}
-
+		.contenedornotas a {
+			text-decoration: none;
+			color: #2C3B88;
+		}
+			.contenedornotas a:hover {
+				color: #333;
+				text-decoration: underline;
+			}
 	.sidebarfanaticadas {
 		width: 300px;
 		float: right;
