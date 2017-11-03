@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: PLAN ANUAL
+Template Name: PLAN ANUAL2
 */
 ?>
 <?php include(TEMPLATEPATH."/header.php");?>
